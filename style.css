@@ -1,0 +1,87 @@
+body{
+  background-image: url("imagens/1054256.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+ 
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+h5{
+  color: #FFFFFF;
+}
+ul{
+  display: flex;
+  text-transform: uppercase;
+  padding-top: 16px;
+  list-style-type: none;
+  
+}
+
+
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  background-image: url(imagens/Icone.svg);
+  margin-left: 20px;
+  justify-items: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+}
+
+.intro{
+  height: 60px;
+  width: 100%;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #252323;
+  
+}
+
+.form-control{
+  background-color: #252323;
+  border-radius: 16px;
+}
+.designInput{
+  background-color: #252323;
+}
+.conteiner-cadastro{
+  align-self: center;
+  justify-self: center;
+  
+}
+
+.form-group{
+  display: flex;
+  
+  width: 300px;
+}
+.botao{
+  margin: 20px 20px;
+}
+.botao button:not(:last-child){
+  margin-right: 11px;
+}
+.estilo-botao{
+  color: #FFFFFF;
+  background-color: #252323;
+  border-radius: 16px;
+}
+.designLogo{
+  color: #FFFFFF;
+  margin: 60px 42px;
+}
